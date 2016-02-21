@@ -3,19 +3,19 @@ This is the test application for datapine where I used required technologies.
 Let me provide you a little documentation how to run this project.
 
 
-1. To clone this project to ypur local run from console please 
+To clone this project to ypur local run from console please 
 
 ```
 https://github.com/Abramov90/charts.git
 ```
 
-2. Move to project directory and run
+Move to project directory and run
 
 ```
 npm install
 ```
 
-3. The next step will
+The next step will
 
 ```
 grunt compile
@@ -23,7 +23,7 @@ grunt compile
 
 this command will compile less files and run watcher
 
-4. You can run 
+You can run 
 
 ```
 npm start
@@ -41,10 +41,10 @@ and run where
 npm www
 ```
 
-5. Open in your web browser this url: 
+Open in your web browser this url: 
 
 <http://localhost:8080>
 
-6. **Enjoy**
+**Enjoy**
 
 
