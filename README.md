@@ -44,7 +44,7 @@ npm www
 5. Open in your web browser this url: 
 
 
-[link text itself]: http://localhost:8080
+[1]: http://localhost:8080
 
 6. **Enjoy**
 
