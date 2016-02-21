@@ -1,0 +1,103 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Droid Sans',Helvetica,Arial,sans-serif;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  &:visited {
+    text-decoration: none;
+  }
+}
+.readme {
+  width: 400px;
+  background: lightgray;
+  border: 1px dotted black;
+  list-style-type:decimal;
+  margin-left:50px;
+  padding-top: 20;
+  li {
+    span {
+      padding-top: 10px;
+    }
+    .console {
+      background: black;
+      color: green;
+      padding: 10px 5px;
+      border-radius: 5px;
+      margin: 20px 0 10px 0;
+      &:before {
+        content: "your-pc:username@pc:$ ";
+      }
+    }
+  }
+}
+ul {
+  overflow: hidden;
+  li {
+    display: block;
+    padding: 10px 15px;
+    float: left;
+  }
+}
+
+header {
+  background: black;
+
+  li {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.chart-overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.chart-modal {
+  width: auto;
+  height: auto;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #333;
+  z-index: 200;
+  top: 40%;
+  left: 45%;
+  margin: -150px 0 0 -200px;
+  padding: 10px;
+  .modal-header {
+    text-align: right;
+    strong {
+      float: left;
+    }
+  }
+}
+
+.modal-close {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.chart-list-item {
+  margin: 10px 0;
+  padding: 10px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
